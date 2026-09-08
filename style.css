@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161b22;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: cyan;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.profile-circle {
+    width: 130px;
+    height: 130px;
+    background: cyan;
+    color: black;
+    border-radius: 50%;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 130px;
+    margin: auto;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+header p {
+    color: lightgray;
+    margin-top: 10px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: cyan;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Sections */
+section {
+    width: 80%;
+    margin: 30px auto;
+    background: #161b22;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* Headings */
+h2 {
+    color: cyan;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: cyan;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Projects */
+.project-card {
+    background: #21262d;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border-left: 5px solid cyan;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #161b22;
+    margin-top: 30px;
+}
